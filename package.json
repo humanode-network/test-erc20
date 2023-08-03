@@ -4,7 +4,8 @@
   "scripts": {
     "test": "hardhat test",
     "node:dev": "hardhat node",
-    "deploy:localhost": "hardhat run --network localhost scripts/deploy.ts"
+    "deploy:localhost": "hardhat run --network localhost scripts/deploy.ts",
+    "deploy:testnet5": "hardhat run --network testnet5 scripts/deploy.ts"
   },
   "dependencies": {
     "@openzeppelin/contracts": "^4.9.3"
