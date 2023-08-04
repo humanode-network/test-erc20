@@ -24,7 +24,8 @@ const config: HardhatUserConfig = {
   solidity: "0.8.17",
 
   networks: {
-    "hmnd-local": {
+    // Get and run the `humanode-peer` locally with `--dev` flag.
+    "humanode-local": {
       url: "http://localhost:9933",
       // Dev seed private keys.
       accounts: {
@@ -36,7 +37,7 @@ const config: HardhatUserConfig = {
     },
 
     // https://link.humanode.io/docs/chains
-    testnet5: {
+    "humanode-testnet5": {
       chainId: 0x3a05,
       url: "https://explorer-rpc-http.testnet5.stages.humanode.io",
       accounts: accounts("TESTNET5"),
