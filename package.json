@@ -5,6 +5,7 @@
     "test": "hardhat test",
     "node:dev": "hardhat node",
     "deploy:localhost": "hardhat run --network localhost scripts/deploy.ts",
+    "deploy:hmnd-local": "hardhat run --network hmnd-local scripts/deploy.ts",
     "deploy:testnet5": "hardhat run --network testnet5 scripts/deploy.ts"
   },
   "dependencies": {
