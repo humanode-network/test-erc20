@@ -42,6 +42,13 @@ const config: HardhatUserConfig = {
       url: "https://explorer-rpc-http.testnet5.stages.humanode.io",
       accounts: accounts("TESTNET5"),
     } satisfies HttpNetworkUserConfig,
+
+    // https://link.humanode.io/docs/chains
+    "humanode-mainnet": {
+      chainId: 5234,
+      url: "https://explorer-rpc-http.mainnet.stages.humanode.io",
+      accounts: accounts("MAINNET"),
+    } satisfies HttpNetworkUserConfig,
   },
 };
 

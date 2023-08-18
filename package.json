@@ -6,7 +6,8 @@
     "node:dev": "hardhat node",
     "deploy:localhost": "hardhat run --network localhost scripts/deploy.ts",
     "deploy:humanode:local": "hardhat run --network humanode-local scripts/deploy.ts",
-    "deploy:humanode:testnet5": "hardhat run --network humanode-testnet5 scripts/deploy.ts"
+    "deploy:humanode:testnet5": "hardhat run --network humanode-testnet5 scripts/deploy.ts",
+    "deploy:humanode:mainnet": "hardhat run --network humanode-mainnet scripts/deploy.ts"
   },
   "dependencies": {
     "@openzeppelin/contracts": "^4.9.3"
