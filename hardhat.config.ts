@@ -21,7 +21,16 @@ const SUBSTRATE_DEV_SEED_PHRASE =
   "bottom drive obey lake curtain smoke basket hold race lonely fit walk";
 
 const config: HardhatUserConfig = {
-  solidity: "0.8.17",
+  solidity: {
+    version: "0.8.17",
+    settings: {
+      optimizer: {
+        enabled: true,
+        runs: 200,
+      },
+      evmVersion: "london",
+    },
+  },
 
   networks: {
     // Get and run the `humanode-peer` locally with `--dev` flag.
