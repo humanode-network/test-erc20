@@ -3,6 +3,7 @@
   "private": true,
   "scripts": {
     "test": "hardhat test",
+    "compile": "hardhat compile",
     "flatten": "hardhat flatten",
     "node:dev": "hardhat node",
     "deploy:localhost": "hardhat run --network localhost scripts/deploy.ts",
